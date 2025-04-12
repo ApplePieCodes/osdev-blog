@@ -331,6 +331,6 @@ And that's it! Run `make build-iso` and `qemu-system-x86_64 --cdrom  kernel.iso`
 
 ![QEMU Output](qemu.png)
 
-All code is available on GitHub at [this link](https://github.com/ApplePieCodes/limine-kernel-c-x86_64/).  
+All code is available on GitHub at [this link](https://github.com/ApplePieCodes/limine-kernel-c-x86_64/tree/version-0).  
 
 The repository contains the complete source code and files required to follow along with this tutorial, including the `kmain.c`, `Makefile`, `linker.ld`, and `limine.conf` files. It serves as a reference implementation for building a simple x86_64 kernel using the Limine bootloader in C.
