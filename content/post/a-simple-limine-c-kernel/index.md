@@ -43,6 +43,8 @@ Afterwards run `brew install x86_64-elf-gcc` to install the cross compiler.
 
 Now that you have a cross compiler, you can start working on the kernel. This tutorial is a minimal OS kernel. It does not serve as a full kernel. It lacks several features of an operating system kernel, such as loading and executing programs, and does not output anything of use, other than to test the kernel's functionality. This does however, serve as a starter for further expansion. To start, create a directory for your kernel to reside in, and create the following structure, with any files being empty execpt for limine.h. You can get limine.h [here](https://github.com/limine-bootloader/limine/blob/v9.x/limine.h).
 
+Make sure your project uses git by running `git init`
+
 ```tree
 .
 ├── src/
