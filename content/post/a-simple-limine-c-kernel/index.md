@@ -8,6 +8,7 @@ tags = [ "c", "limine" ]
 +++
 
 In this tutorial, we will be creating a simple kernel using the limine bootloader in C.
+This tutorial is based on the [Limine Bare Bones](https://wiki.osdev.org/Limine_Bare_Bones) tutorial.
 This tutorial assumes you are running on linux.
 
 You will need the following things
